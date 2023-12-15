@@ -8,7 +8,7 @@ function AddItem({ onAdd, onReset, onDelete, onAllDone, onNotDone }) {
       <Item onAdd={onAdd} />
       <ButtonGroup>
         <Button btnType="secondary" onClick={onAllDone}>
-          Todas Completas 🥷
+          Todas completas 🥷
         </Button>
         <Button btnType="secondary" onClick={onNotDone}>
           Todas incompletas 😿
