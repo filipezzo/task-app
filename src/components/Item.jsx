@@ -29,7 +29,7 @@ function Item({ onAdd }) {
         value={newEntry}
         onChange={(e) => setNewEntry(e.target.value)}
       />
-      <Button>Adicionar A Lista</Button>
+      <Button>Adicionar a lista</Button>
     </form>
   );
 }
